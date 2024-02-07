@@ -1,0 +1,42 @@
+  html {
+    font-size: 14px;  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  } 
+
+  .container {
+    max-width: 1200px;
+  }
+
+  .platform-header {
+    max-width: 800px;
+  }
+
+  .platform-card-img {
+    width: 80px;
+    margin: auto;
+    }
+
+  .platform-card {
+    min-width: 200px;
+  }
+
+  .bg-dark {
+    background-color: #124c8f !important;
+  }
+
+  .carousel-control {
+    width: 4%
+  }
+
+  .carousel-item {
+    min-height: 120px;
+  }
+
+  #includeMenu {
+    min-height: 78px;  /* Updated at runtime by menu.html JavaScript */
+    background-color: #124c8f; /* Set to reduce flicker when changing pages */
+  }
+

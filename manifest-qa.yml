@@ -1,0 +1,8 @@
+---
+applications:
+  - name: cloud6solutions
+    memory: 128M
+    instances: 1
+    routes:
+     - route: cloud6solutions-q.de.a9sapp.eu
+    buildpack: staticfile_buildpack
